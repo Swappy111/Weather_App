@@ -155,20 +155,4 @@ body{
         width: 12px;
     }
 
-    .weather h1 {
-        font-size: 48px;
-    }
-
-    .weather h2 {
-        font-size: 32px;
-    }
-
-    .details {
-        margin-top: 20px;
-        gap: 20px;
-    }
-
-    .humidity, .wind {
-        font-size: 20px;
-    }
 }

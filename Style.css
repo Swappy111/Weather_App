@@ -99,3 +99,76 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+
+
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .search input {
+        border-radius: 25px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .search button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .search button img {
+        width: 14px;
+    }
+
+    .weather h1 {
+        font-size: 60px;
+    }
+
+    .weather h2 {
+        font-size: 40px;
+    }
+
+    .details {
+        margin-top: 30px;
+    }
+
+    .humidity, .wind {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search input {
+        border-radius: 20px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .search button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .search button img {
+        width: 12px;
+    }
+
+    .weather h1 {
+        font-size: 48px;
+    }
+
+    .weather h2 {
+        font-size: 32px;
+    }
+
+    .details {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .humidity, .wind {
+        font-size: 20px;
+    }
+}
